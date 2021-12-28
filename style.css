@@ -1,0 +1,100 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.team{
+    width: 80%;
+    margin: 100px auto;
+    background-color: white;
+}
+
+.team::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.team .team-item{
+ text-align: center;
+ width: 33.33%;
+ float: left;
+ margin-bottom: 22PX;
+}
+.team .team-item img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+   
+}
+
+.team .azam{
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+}
+
+
+
+/* Student list */
+.student{
+    width: 100%;
+    margin: 100px auto;
+    background-color: rgb(221, 216, 216);
+}
+.student::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.student .student-item{
+ text-align: center;
+ width: 33.33%;
+ float: left;
+ margin-bottom: 22PX;
+}
+.student .student-item img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+   
+}
+
+.student .azam1{
+    text-align: center;
+    margin: 20px;
+    
+    padding: 20px;
+    color: indigo;
+}
+
+/* table */
+.data{
+    width: 80%;
+    margin: 100px auto;
+    border-color: #ffffff;
+}
+
+.data table{
+    width: 100%;
+    text-align: center;
+}
+
+.data tbody tr:nth-child(odd) {
+ background-color: #e9e9e9;
+}
+
+.data .azam2{
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    color: rgb(15, 223, 32);
+}
